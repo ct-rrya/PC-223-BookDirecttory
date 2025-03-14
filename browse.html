@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CTU eLibrary - Browse Books</title>
+    <link rel="stylesheet" href="browse.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse Books</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <div class="search-container">
+                <input type="text" placeholder="Search books by title, author or subject...">
+                <button>Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="browse">
+        <div class="browse-header">
+            <h1 class="browse-title">Browse Books</h1>
+            <p class="browse-subtitle">Explore books based on your program</p>
+        </div>
+
+        <!-- Browse by Categories -->
+        <div class="categories-section">
+            <h2 class="section-title">Browse by Program</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-program="BEEd">
+                    <div class="category-icon">📚</div>
+                    <div class="category-name">BEEd</div>
+                    <div class="category-count">1,245 books</div>
+                </div>
+                <div class="category-card" data-program="BTLED">
+                    <div class="category-icon">📖</div>
+                    <div class="category-name">BTLED</div>
+                    <div class="category-count">872 books</div>
+                </div>
+                <div class="category-card" data-program="BSEd_Math">
+                    <div class="category-icon">📏</div>
+                    <div class="category-name">BSEd Mathematics</div>
+                    <div class="category-count">654 books</div>
+                </div>
+                <div class="category-card" data-program="BSIE">
+                    <div class="category-icon">🛠</div>
+                    <div class="category-name">BSIE</div>
+                    <div class="category-count">521 books</div>
+                </div>
+                <div class="category-card" data-program="BSIT">
+                    <div class="category-icon">💻</div>
+                    <div class="category-name">BSIT</div>
+                    <div class="category-count">521 books</div>
+                </div>
+                <div class="category-card" data-program="BSFi">
+                    <div class="category-icon">🌿</div>
+                    <div class="category-name">BSFi</div>
+                    <div class="category-count">521 books</div>
+                </div>
+                <div class="category-card" data-program="BIT_Automotive">
+                    <div class="category-icon">🚗</div>
+                    <div class="category-name">BIT Automotive</div>
+                    <div class="category-count">521 books</div>
+                </div>
+                <div class="category-card" data-program="BIT_CT">
+                    <div class="category-icon">🖥</div>
+                    <div class="category-name">BIT Computer Technology</div>
+                    <div class="category-count">521 books</div>
+                </div>
+                <div class="category-card" data-program="BIT_Electronics">
+                    <div class="category-icon">⚡</div>
+                    <div class="category-name">BIT Electronics</div>
+                    <div class="category-count">521 books</div>
+                </div>
+                <div class="category-card" data-program="BSHM">
+                    <div class="category-icon">🍽</div>
+                    <div class="category-name">BSHM</div>
+                    <div class="category-count">521 books</div>
+                </div>
+                <div class="category-card" data-program="General_Education">
+                    <div class="category-icon">📘</div>
+                    <div class="category-name">General Education</div>
+                    <div class="category-count">521 books</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".category-card").forEach(card => {
+                card.addEventListener("click", function () {
+                    const program = this.getAttribute("data-program");
+                    window.location.href = `program.html?program=${program}`;
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
