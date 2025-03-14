@@ -1,0 +1,50 @@
+{
+    "books": [
+      {
+        "program": "BEEd",
+        "books": [
+          {
+            "title": "Teaching Strategies for Elementary Education",
+            "author": "John Doe",
+            "year": 2019
+          },
+          {
+            "title": "Child Development and Pedagogy",
+            "author": "Jane Smith",
+            "year": 2021
+          }
+        ]
+      },
+      {
+        "program": "BSIT",
+        "books": [
+          {
+            "title": "Introduction to Programming",
+            "author": "Alan Turing",
+            "year": 2018
+          },
+          {
+            "title": "Web Development Fundamentals",
+            "author": "Grace Hopper",
+            "year": 2020
+          }
+        ]
+      },
+      {
+        "program": "BSHM",
+        "books": [
+          {
+            "title": "Hospitality Management Essentials",
+            "author": "Gordon Ramsay",
+            "year": 2017
+          },
+          {
+            "title": "Tourism and Business Strategies",
+            "author": "Anthony Bourdain",
+            "year": 2022
+          }
+        ]
+      }
+    ]
+  }
+  
