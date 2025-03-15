@@ -1,50 +1,419 @@
 {
-    "books": [
-      {
-        "program": "BEEd",
-        "books": [
-          {
-            "title": "Teaching Strategies for Elementary Education",
-            "author": "John Doe",
-            "year": 2019
-          },
-          {
-            "title": "Child Development and Pedagogy",
-            "author": "Jane Smith",
-            "year": 2021
-          }
-        ]
-      },
-      {
-        "program": "BSIT",
-        "books": [
-          {
-            "title": "Introduction to Programming",
-            "author": "Alan Turing",
-            "year": 2018
-          },
-          {
-            "title": "Web Development Fundamentals",
-            "author": "Grace Hopper",
-            "year": 2020
-          }
-        ]
-      },
-      {
-        "program": "BSHM",
-        "books": [
-          {
-            "title": "Hospitality Management Essentials",
-            "author": "Gordon Ramsay",
-            "year": 2017
-          },
-          {
-            "title": "Tourism and Business Strategies",
-            "author": "Anthony Bourdain",
-            "year": 2022
-          }
-        ]
-      }
-    ]
-  }
-  
+  "books": [
+    {
+      "program": "BSIT",
+      "books": [
+        {
+          "id": "bsit-001",
+          "title": "Introduction to Programming with Python",
+          "author": "John Smith",
+          "year": 2022,
+          "publisher": "Tech Publishing",
+          "isbn": "978-1234567890",
+          "category": "Programming",
+          "image": "images/python-book.jpg",
+          "description": "A comprehensive introduction to programming concepts using Python, covering variables, data structures, functions, and object-oriented programming principles.",
+          "available": true
+        },
+        {
+          "id": "bsit-002",
+          "title": "Database Systems: Concepts and Design",
+          "author": "Maria Garcia",
+          "year": 2021,
+          "publisher": "Academic Press",
+          "isbn": "978-0987654321",
+          "category": "Databases",
+          "image": "images/database-book.jpg",
+          "description": "Covers relational database theory, SQL, normalization, and database application development with practical examples and case studies.",
+          "available": true
+        },
+        {
+          "id": "bsit-003",
+          "title": "Web Development with JavaScript and Node.js",
+          "author": "David Chen",
+          "year": 2023,
+          "publisher": "Web Tech Books",
+          "isbn": "978-5678901234",
+          "category": "Web Development",
+          "image": "images/web-dev-book.jpg",
+          "description": "Learn modern web development techniques using JavaScript, Node.js, Express, and popular frontend frameworks.",
+          "available": false
+        },
+        {
+          "id": "bsit-004",
+          "title": "Cloud Computing: Principles and Paradigms",
+          "author": "Sarah Johnson",
+          "year": 2022,
+          "publisher": "Cloud Publishing",
+          "isbn": "978-2345678901",
+          "category": "Cloud Computing",
+          "image": "images/cloud-book.jpg",
+          "description": "An exploration of cloud computing architectures, services, security considerations, and implementation strategies for businesses.",
+          "available": true
+        },
+        {
+          "id": "bsit-005",
+          "title": "Cybersecurity Fundamentals",
+          "author": "Michael Williams",
+          "year": 2023,
+          "publisher": "Security Press",
+          "isbn": "978-3456789012",
+          "category": "Security",
+          "image": "images/security-book.jpg",
+          "description": "A comprehensive guide to cybersecurity principles, threat detection, vulnerability assessment, and security practices.",
+          "available": true
+        }
+      ]
+    },
+    {
+      "program": "BSEd_Math",
+      "books": [
+        {
+          "id": "bsed-001",
+          "title": "Advanced Calculus for Teachers",
+          "author": "Robert Davis",
+          "year": 2021,
+          "publisher": "Mathematics Press",
+          "isbn": "978-4567890123",
+          "category": "Calculus",
+          "image": "images/calculus-book.jpg",
+          "description": "Advanced calculus concepts with teaching methodologies designed specifically for mathematics educators.",
+          "available": true
+        },
+        {
+          "id": "bsed-002",
+          "title": "Discrete Mathematics and Its Applications",
+          "author": "Elena Rodriguez",
+          "year": 2020,
+          "publisher": "Academic Publishing",
+          "isbn": "978-5678901234",
+          "category": "Discrete Math",
+          "image": "images/discrete-math-book.jpg",
+          "description": "Covers sets, logic, algorithms, graph theory, and combinatorics with applications relevant to computer science and engineering.",
+          "available": true
+        },
+        {
+          "id": "bsed-003",
+          "title": "Teaching Mathematics in Secondary Schools",
+          "author": "Andrew Thompson",
+          "year": 2022,
+          "publisher": "Education Books",
+          "isbn": "978-6789012345",
+          "category": "Teaching Methods",
+          "image": "images/math-teaching-book.jpg",
+          "description": "Strategies and approaches for effective mathematics instruction in secondary education environments.",
+          "available": false
+        }
+      ]
+    },
+    {
+      "program": "BEEd",
+      "books": [
+        {
+          "id": "beed-001",
+          "title": "Early Childhood Development",
+          "author": "Patricia Moore",
+          "year": 2021,
+          "publisher": "Education Press",
+          "isbn": "978-7890123456",
+          "category": "Child Development",
+          "image": "images/child-dev-book.jpg",
+          "description": "A comprehensive guide to early childhood development stages and educational approaches for young learners.",
+          "available": true
+        },
+        {
+          "id": "beed-002",
+          "title": "Elementary School Curriculum Design",
+          "author": "James Wilson",
+          "year": 2022,
+          "publisher": "Curriculum Institute",
+          "isbn": "978-8901234567",
+          "category": "Curriculum",
+          "image": "images/curriculum-book.jpg",
+          "description": "Principles and practices for designing effective elementary school curricula across multiple subjects.",
+          "available": true
+        },
+        {
+          "id": "beed-003",
+          "title": "Literacy Instruction for Young Learners",
+          "author": "Susan Brown",
+          "year": 2023,
+          "publisher": "Reading Press",
+          "isbn": "978-9012345678",
+          "category": "Literacy",
+          "image": "images/literacy-book.jpg",
+          "description": "Methods and strategies for teaching reading and writing skills to elementary school students.",
+          "available": true
+        }
+      ]
+    },
+    {
+      "program": "BSIE",
+      "books": [
+        {
+          "id": "bsie-001",
+          "title": "Operations Research: Models and Applications",
+          "author": "Thomas Anderson",
+          "year": 2021,
+          "publisher": "Engineering Press",
+          "isbn": "978-0123456789",
+          "category": "Operations Research",
+          "image": "images/operations-book.jpg",
+          "description": "Mathematical models and techniques for optimizing industrial processes and decision-making.",
+          "available": true
+        },
+        {
+          "id": "bsie-002",
+          "title": "Industrial Safety and Ergonomics",
+          "author": "Lisa Martinez",
+          "year": 2022,
+          "publisher": "Safety Publications",
+          "isbn": "978-1234567890",
+          "category": "Safety",
+          "image": "images/safety-book.jpg",
+          "description": "Principles of workplace safety, human factors engineering, and ergonomic design in industrial settings.",
+          "available": true
+        }
+      ]
+    },
+    {
+      "program": "BSHM",
+      "books": [
+        {
+          "id": "bshm-001",
+          "title": "Hotel Management and Operations",
+          "author": "Carlos Ramirez",
+          "year": 2022,
+          "publisher": "Hospitality Press",
+          "isbn": "978-2345678901",
+          "category": "Hotel Management",
+          "image": "images/hotel-book.jpg",
+          "description": "Comprehensive guide to hotel operations, guest services, and management principles for hospitality professionals.",
+          "available": true
+        },
+        {
+          "id": "bshm-002",
+          "title": "Restaurant Service and Culinary Arts",
+          "author": "Sophie Lee",
+          "year": 2021,
+          "publisher": "Culinary Publications",
+          "isbn": "978-3456789012",
+          "category": "Food Service",
+          "image": "images/restaurant-book.jpg",
+          "description": "Professional techniques for restaurant service, food preparation, and culinary presentation.",
+          "available": false
+        },
+        {
+          "id": "bshm-003",
+          "title": "Event Planning and Management",
+          "author": "Nicholas Taylor",
+          "year": 2023,
+          "publisher": "Events Press",
+          "isbn": "978-4567890123",
+          "category": "Event Management",
+          "image": "images/event-book.jpg",
+          "description": "Strategies and techniques for planning, organizing, and executing successful events and conferences.",
+          "available": true
+        }
+      ]
+    },
+    {
+      "program": "General_Education",
+      "books": [
+        {
+          "id": "gened-001",
+          "title": "Understanding Philosophy: An Introduction",
+          "author": "Emma Phillips",
+          "year": 2020,
+          "publisher": "Academic Press",
+          "isbn": "978-5678901234",
+          "category": "Philosophy",
+          "image": "images/philosophy-book.jpg",
+          "description": "An accessible introduction to major philosophical concepts, movements, and thinkers throughout history.",
+          "available": true
+        },
+        {
+          "id": "gened-002",
+          "title": "World History: Ancient Civilizations to Modern Times",
+          "author": "Benjamin Harris",
+          "year": 2021,
+          "publisher": "History Books",
+          "isbn": "978-6789012345",
+          "category": "History",
+          "image": "images/history-book.jpg",
+          "description": "A comprehensive survey of world history from the earliest civilizations to contemporary global developments.",
+          "available": true
+        },
+        {
+          "id": "gened-003",
+          "title": "Introduction to Psychology",
+          "author": "Olivia White",
+          "year": 2022,
+          "publisher": "Psychology Press",
+          "isbn": "978-7890123456",
+          "category": "Psychology",
+          "image": "images/psychology-book.jpg",
+          "description": "Foundational concepts in psychology including cognition, development, social behavior, and psychological disorders.",
+          "available": true
+        },
+        {
+          "id": "gened-004",
+          "title": "Environmental Science: Principles and Practices",
+          "author": "Daniel Green",
+          "year": 2023,
+          "publisher": "Science Books",
+          "isbn": "978-8901234567",
+          "category": "Environmental Science",
+          "image": "images/environment-book.jpg",
+          "description": "Key concepts in environmental science including ecosystems, biodiversity, climate, and sustainability.",
+          "available": false
+        }
+      ]
+    },
+    {
+      "program": "BTLED",
+      "books": [
+        {
+          "id": "btled-001",
+          "title": "Technology Education: Foundations and Methods",
+          "author": "Richard Kim",
+          "year": 2022,
+          "publisher": "Tech Ed Press",
+          "isbn": "978-9012345678",
+          "category": "Technology Education",
+          "image": "images/tech-ed-book.jpg",
+          "description": "Principles and methods for teaching technology subjects in educational settings.",
+          "available": true
+        },
+        {
+          "id": "btled-002",
+          "title": "Vocational Skills Development",
+          "author": "Michelle Scott",
+          "year": 2021,
+          "publisher": "Vocational Press",
+          "isbn": "978-0123456789",
+          "category": "Vocational Education",
+          "image": "images/vocational-book.jpg",
+          "description": "Approaches to developing practical vocational skills and preparing students for technical careers.",
+          "available": true
+        }
+      ]
+    },
+    {
+      "program": "BSFi",
+      "books": [
+        {
+          "id": "bsfi-001",
+          "title": "Fisheries Science and Management",
+          "author": "William Clark",
+          "year": 2021,
+          "publisher": "Marine Sciences",
+          "isbn": "978-1234567890",
+          "category": "Fisheries",
+          "image": "images/fisheries-book.jpg",
+          "description": "Scientific principles of fisheries biology, ecology, and sustainable management practices.",
+          "available": true
+        },
+        {
+          "id": "bsfi-002",
+          "title": "Aquaculture Systems and Technology",
+          "author": "Jennifer Lee",
+          "year": 2022,
+          "publisher": "Aquaculture Press",
+          "isbn": "978-2345678901",
+          "category": "Aquaculture",
+          "image": "images/aquaculture-book.jpg",
+          "description": "Design, operation, and management of aquaculture systems for various aquatic species.",
+          "available": false
+        }
+      ]
+    },
+    {
+      "program": "BIT_Automotive",
+      "books": [
+        {
+          "id": "bita-001",
+          "title": "Automotive Systems and Technology",
+          "author": "Mark Johnson",
+          "year": 2022,
+          "publisher": "Automotive Press",
+          "isbn": "978-3456789012",
+          "category": "Automotive",
+          "image": "images/auto-systems-book.jpg",
+          "description": "Comprehensive guide to automotive systems including engines, transmissions, and electronic controls.",
+          "available": true
+        },
+        {
+          "id": "bita-002",
+          "title": "Vehicle Diagnostics and Maintenance",
+          "author": "Anthony Rodriguez",
+          "year": 2023,
+          "publisher": "Tech Manuals",
+          "isbn": "978-4567890123",
+          "category": "Maintenance",
+          "image": "images/auto-maintenance-book.jpg",
+          "description": "Techniques and procedures for diagnosing and repairing various vehicle systems and components.",
+          "available": true
+        }
+      ]
+    },
+    {
+      "program": "BIT_CT",
+      "books": [
+        {
+          "id": "bitct-001",
+          "title": "Computer Hardware Fundamentals",
+          "author": "Kevin Zhang",
+          "year": 2021,
+          "publisher": "Computer Tech Press",
+          "isbn": "978-5678901234",
+          "category": "Hardware",
+          "image": "images/hardware-book.jpg",
+          "description": "Principles of computer hardware components, architecture, and system assembly.",
+          "available": true
+        },
+        {
+          "id": "bitct-002",
+          "title": "Network Infrastructure and Administration",
+          "author": "Amanda Torres",
+          "year": 2022,
+          "publisher": "Network Books",
+          "isbn": "978-6789012345",
+          "category": "Networking",
+          "image": "images/network-book.jpg",
+          "description": "Design, implementation, and management of computer networks and network services.",
+          "available": false
+        }
+      ]
+    },
+    {
+      "program": "BIT_Electronics",
+      "books": [
+        {
+          "id": "bite-001",
+          "title": "Electronic Circuits and Components",
+          "author": "Paul Wright",
+          "year": 2022,
+          "publisher": "Electronics Press",
+          "isbn": "978-7890123456",
+          "category": "Electronics",
+          "image": "images/circuits-book.jpg",
+          "description": "Analysis and design of analog and digital electronic circuits and systems.",
+          "available": true
+        },
+        {
+          "id": "bite-002",
+          "title": "Microcontroller Programming and Applications",
+          "author": "Laura Evans",
+          "year": 2023,
+          "publisher": "Tech Books",
+          "isbn": "978-8901234567",
+          "category": "Microcontrollers",
+          "image": "images/microcontroller-book.jpg",
+          "description": "Programming techniques and practical applications for various microcontroller platforms.",
+          "available": true
+        }
+      ]
+    }
+  ]
+}

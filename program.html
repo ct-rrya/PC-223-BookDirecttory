@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program Books</title>
+    <title>CTU eLibrary - Program Books</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="program.css">
     <script src="program.js" defer></script>
 </head>
 <body>
-    <h1 id="program-title"></h1>
-    <div id="books-container"></div>
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse Books</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Filter books...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="program-container">
+        <header class="program-header">
+            <h1 id="program-title">Loading Program...</h1>
+            <p id="program-description" class="program-description"></p>
+        </header>
+
+        <div class="filters-container">
+            <div class="filter-group">
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select">
+                    <option value="title-asc">Title (A-Z)</option>
+                    <option value="title-desc">Title (Z-A)</option>
+                    <option value="year-new">Year (Newest First)</option>
+                    <option value="year-old">Year (Oldest First)</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="books-container" class="books-grid"></div>
+
+        <div id="book-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div id="modal-book-details"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
