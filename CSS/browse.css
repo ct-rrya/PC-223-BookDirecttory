@@ -335,21 +335,6 @@ body {
     color: #666;
 }
 
-.book-availability {
-    margin-top: auto;
-    padding-top: 10px;
-    font-weight: 600;
-    font-size: 14px;
-}
-
-.available {
-    color: green;
-}
-
-.unavailable {
-    color: var(--red);
-}
-
 .view-details {
     background-color: var(--yellow);
     color: white;
@@ -367,9 +352,8 @@ body {
     background-color: var(--skin);
 }
 
-/* List View */
 .books-list {
-    display: none; /* Hidden by default, toggle with JavaScript */
+    display: none; 
 }
 
 .list-item {
@@ -467,7 +451,7 @@ body {
     color: white;
 }
 
-/* Responsive adjustments */
+/* responsiveness */
 @media (max-width: 768px) {
     .search-filters {
         grid-template-columns: 1fr;
