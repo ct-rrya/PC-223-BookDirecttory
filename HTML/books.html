@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTU eLibrary - Program Books</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/books.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="../HTML/index.html">Home</a></li>
+                <li><a href="../HTML/browse.html">Browse Books</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search books by title, author or subject...">
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="books-section">
+        <div class="books-header">
+            <h1 id="program-title">Program Books</h1>
+            <p id="program-count">Loading books...</p>
+            <a href="../HTML/browse.html" class="back-button">← Back to Programs</a>
+        </div>
+
+        <div id="books-container" class="books-grid">
+        </div>
+    </section>
+
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="book-details">
+                <img id="modal-book-cover" src="" alt="Book Cover">
+                <div class="book-info">
+                    <h2 id="modal-book-title"></h2>
+                    <p id="modal-book-author"><strong>Author:</strong> <span></span></p>
+                    <p id="modal-book-publisher"><strong>Publisher:</strong> <span></span></p>
+                    <p id="modal-book-year"><strong>Year:</strong> <span></span></p>
+                    <div id="modal-book-description">
+                        <h3>Description:</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/books.js"></script>
+</body>
+</html>

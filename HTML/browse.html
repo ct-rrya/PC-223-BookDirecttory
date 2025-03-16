@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CTU eLibrary - Browse Books</title>
-    <link rel="stylesheet" href="browse.css">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="/CSS/browse.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <script src="/JS/script.js" defer></script>
 </head>
 <body>
     <nav>
         <div class="nav-container">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="browse.html">Browse Books</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/browse.html">Browse Books</a></li>
+                <li><a href="#">About</a></li>
             </ul>
             
             <div class="search-container">
@@ -30,7 +30,6 @@
             <p class="browse-subtitle">Explore books based on your program</p>
         </div>
 
-        <!-- Browse by Categories -->
         <div class="categories-section">
             <h2 class="section-title">Browse by Program</h2>
             <div class="categories-grid">
@@ -62,7 +61,7 @@
                 <div class="category-card" data-program="BSFi">
                     <div class="category-icon">#</div>
                     <div class="category-name">BSFi</div>
-                    <div class="category-count">521 books</div>
+                    <div class="cateory-count">521 books</div>
                 </div>
                 <div class="category-card" data-program="BIT_Automotive">
                     <div class="category-icon">🚗</div>
@@ -92,17 +91,6 @@
             </div>
         </div>
     </section>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll(".category-card").forEach(card => {
-                card.addEventListener("click", function () {
-                    const program = this.getAttribute("data-program");
-                    window.location.href = `program.html?program=${program}`;
-                });
-            });
-        });
-    </script>
 
 </body>
 </html>

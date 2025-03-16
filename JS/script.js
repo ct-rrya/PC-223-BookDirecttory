@@ -16,3 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Error loading programs:", error));
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const categoryCards = document.querySelectorAll('.category-card');
+
+    categoryCards.forEach(card => {
+        card.addEventListener('click', function() {
+            const program = this.getAttribute('data-program');
+            window.location.href = `/HTML/books.html?program=${program}`;
+        });
+    });
+});
