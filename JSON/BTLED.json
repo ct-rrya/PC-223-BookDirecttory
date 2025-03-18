@@ -17,5 +17,35 @@
         "publicationYear": "2013",
         "description": "This worktext provides comprehensive coverage of technology and livelihood education topics, focusing on practical applications and skills essential for 21st-century learners.",
         "coverImage": "#"
+      },
+
+      {
+        "id": "btled-003",
+        "title": "III-Nitride Based Light Emitting Diodes and Applications (2nd Edition)",
+        "author": "Tae-Yeon Seong",
+        "publisher": "Springer",
+        "publicationYear": "2017",
+        "description": "This book delves into the development and applications of III-nitride semiconductors in light-emitting diodes, offering insights into materials science and electronic device engineering.",
+        "coverImage": "#"
+      },
+
+      {
+        "id": "btled-004",
+        "title": "Introduction to Light Emitting Diode Technology and Applications",
+        "author": "Gilbert Held",
+        "publisher": "CRC Press",
+        "publicationYear": "2019",
+        "description": "This book introduces the fundamentals of LED technology, exploring various applications and providing a solid foundation for understanding modern lighting solutions.",
+        "coverImage": "#"
+      },
+
+      {
+        "id": "btled-005",
+        "title": "Teaching Technologies in Nursing and the Health Professions: Beyond Simulation and Online Courses",
+        "author": "Katherine Vogel Smith",
+        "publisher": "Springer Publishing",
+        "publicationYear": "2010",
+        "description": "This book discusses the integration of technology in teaching, focusing on innovative methods beyond traditional simulation and online courses, applicable to various educational fields.",
+        "coverImage": "#"
       }
 ]
