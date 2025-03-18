@@ -1,20 +1,50 @@
 [
     {
       "id": "beed-001",
-      "title": "Early Childhood Education",
-      "author": "Maria Santos",
-      "publisher": "Education Press",
-      "publicationYear": "2021",
-      "description": "A comprehensive guide to early childhood education principles.",
+      "title": "New Trends in Education",
+      "author": "S.K Panner Selvan",
+      "publisher": "Tilak Wasan",
+      "publicationYear": "2011",
+      "description": "This book discusses emerging trends, methodologies, and innovations in modern education systems, providing valuable insights for future educators.",
       "coverImage": "../Images/ece.jpg"
     },
     {
       "id": "beed-002",
-      "title": "Child Development and Learning",
-      "author": "James Wilson",
-      "publisher": "Academic Publishing",
-      "publicationYear": "2019",
-      "description": "An in-depth exploration of child development.",
+      "title": "The One World School House",
+      "author": "Alan Khan",
+      "publisher": "Twelve",
+      "publicationYear": "2012",
+      "description": "This book explores a revolutionary approach to learning, emphasizing flexible, student-centered education inspired by modern technology and digital learning platforms.",
+      "coverImage": "#"
+    },
+
+    {
+      "id": "beed-003",
+      "title": "A Mind at a Time",
+      "author": "Mel Levine, M.D",
+      "publisher": "Simon & Schuster",
+      "publicationYear": "2002",
+      "description": "The book addresses the unique ways children learn and offers strategies for educators to tailor their teaching approaches to meet individual student needs.",
+      "coverImage": "#"
+    },
+
+    {
+      "id": "beed-004",
+      "title": "Theory and Practice in Student Teaching",
+      "author": "Amparo S. Lardizabal & Milagros A. Campos",
+      "publisher": "Katha Publishing Co., Inc.",
+      "publicationYear": "1999",
+      "description": "This book combines theoretical concepts with practical applications to prepare aspiring teachers for effective student teaching experiences.",
+      "coverImage": "#"
+    },
+
+    {
+      "id": "beed-005",
+      "title": "Transforming Professional Development into Student Results",
+      "author": "Douglas B. Reeves",
+      "publisher": "ASCD",
+      "publicationYear": "2010",
+      "description": "This book emphasizes practical strategies for improving teacher development programs that directly impact student learning outcomes.",
       "coverImage": "#"
     }
-  ]
+]

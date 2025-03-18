@@ -1,0 +1,51 @@
+[
+    {
+        "id": "bsed-001",
+        "title": "Foundation of Education: The Challenge of Professional Practices",
+        "author": "Robert F. Mnergey & Joanne M. Herbert",
+        "publisher": "Allyn & Bacon",
+        "publicationYear": "2010",
+        "description": "This resource delves into the philosophical, social, and psychological foundations of education, highlighting the essential skills teachers need to excel in their profession.",
+        "coverImage": "../Images/ece.jpg"
+    },
+
+    {
+        "id": "bsed-002",
+        "title": "Teacher Education",
+        "author": "Promila Sharma",
+        "publisher": "A P H Publishing corporation",
+        "publicationYear": "2010",
+        "description": "This book outlines essential teacher training concepts, strategies, and practices to enhance educators' professional growth and competence.",
+        "coverImage": "#"
+    },
+
+    {
+        "id": "bsed-003",
+        "title": "Action Research",
+        "author": "Jonathan clave Prado & zarren Aleta Gaddi",
+        "publisher": "Lorimar Publishing INC.",
+        "publicationYear": "2019",
+        "description": "This book outlines essential teacher training concepts, strategies, and practices to enhance educators' professional growth and competence.",
+        "coverImage": "#"
+    },
+
+    {
+        "id": "bsed-004",
+        "title": "Language Research: Principles and Application",
+        "author": "Ofelia T. Posecion",
+        "publisher": "Lorimar Publishing INC.",
+        "publicationYear": "2011",
+        "description": "This book covers the principles, methods, and applications of language research, serving as a valuable resource for aspiring language educators.",
+        "coverImage": "#"
+    },
+
+    {
+        "id": "bsed-005",
+        "title": "Reviewer Licensure Examination for Teachers (LET)",
+        "author": "Arlun P. Cadiz",
+        "publisher": "Mindshapers Inc., Co.",
+        "publicationYear": "2018",
+        "description": "This reviewer is designed to help aspiring teachers prepare for the Licensure Examination for Teachers (LET), offering key concepts, sample questions, and test-taking strategies.",
+        "coverImage": "#"
+    }
+]

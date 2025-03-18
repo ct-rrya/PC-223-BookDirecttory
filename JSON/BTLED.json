@@ -1,0 +1,21 @@
+[
+    {
+        "id": "btled-001",
+        "title": "Principle of Management & Organization",
+        "author": "Dr. Pedrito R. Pereda & Dr. Purisima P. Pereda",
+        "publisher": "Mindshapers Co., INC",
+        "publicationYear": "2014",
+        "description": "This book provides a comprehensive guide on management theories, organizational structures, and leadership strategies crucial for technical and livelihood educators.",
+        "coverImage": "#"
+      },
+
+      {
+        "id": "btled-002",
+        "title": "Learning and Living in the 21st Century: Worktext in Technology and Livelihood Education 8",
+        "author": "Leonora D. Basbas, Belen M. Jamisal, Ma. Luz R. Lebrudo",
+        "publisher": "Rex Book Store",
+        "publicationYear": "2013",
+        "description": "This worktext provides comprehensive coverage of technology and livelihood education topics, focusing on practical applications and skills essential for 21st-century learners.",
+        "coverImage": "#"
+      }
+]
