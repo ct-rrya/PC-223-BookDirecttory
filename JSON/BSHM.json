@@ -1,0 +1,106 @@
+[
+    {
+      "id": "bshm-1",
+      "title": "Philippine International Culinary Encyclopedia",
+      "author": "Jeremy C. Malcampo",
+      "publisher": "Rex Book Store, 2016",
+      "publicationYear": "2016",
+      "description": "This book discuss the international culinary encylopedia where methods strategies that may help for BSHM career oppurtunities",
+      "coverImage": "../Images/ece.jpg"
+    },
+
+  {
+    "id": "bshm-2",
+    "title": "Environment And Tourism",
+    "author": "Geentanjali",
+    "publisher":"Centrum Press"
+    "publicationYear": "2010",
+    "description": "this book discuss the relationship between the environment and tourism and how to handle toursim without affecting the environment it also discusses the effect of toursim in the environment",
+    "coverImage":"../Images/ece.jpg"
+  },
+
+  {
+    "id": "bshm-3"
+    "title" : "Principles Of Toursim Part II",
+    "author" : "Zenaida L. Cruz, Ph.D",
+    "publisher" : "Rex Bookstore , Inc",
+    "publisherYear": "2005",
+    "description" : "this book discusses the history ,fundamentals and principles of the toursim industry in the Philippines, It shows on how does the industry work and what are the steps for it to simplfy entertainment and your employees",
+    "coverImage": "../Images/ece.jb"
+  },
+  {
+    "id": "bshm-4",
+    "title" : " Bars & Beverage Service with Mixology",
+    "author" : "Lorenzo G. Rojo",
+    "publsiher" : "Mindshaper's Co, In",
+    "publicationYear" : "2012",
+    "description" : "this book provides an indepth analysis on bars and beverage services, it also provides a catalog of mixology for different drinks for students to learn",
+    "coverImage" : "../Image/ecc.jpg",
+  }
+  {
+    "id": "bshm-5",
+    "title": "Bar and Beverage Management",
+    "author": "Noah Carlisle",
+    "publisher": "Unknown",
+    "publicationYear": "Unknown",
+    "description": "A comprehensive guide on managing bar and beverage operations.",
+    "coverImage": "../Images/bar_and_beverage_management.jpg"
+  },
+  {
+    "id": "bshm-6",
+    "title": "The Sharper Your Knife, the Less You Cry: Love, Laughter, and Tears at the World's Most Famous Cooking School",
+    "author": "Kathleen Flinn",
+    "publisher": "Viking Adult",
+    "publicationYear": "2007",
+    "description": "A memoir detailing the author's experiences at Le Cordon Bleu cooking school in Paris.",
+    "coverImage": "../Images/the_sharper_your_knife.jpg"
+  },
+  {
+    "id": "bshm-7",
+    "title": "A Little Course in Wine Tasting",
+    "author": "DK Publishing",
+    "publisher": "Dorling Kindersley",
+    "publicationYear": "2013",
+    "description": "An introductory guide to wine tasting, covering techniques and tips for beginners.",
+    "coverImage": "../Images/a_little_course_in_wine_tasting.jpg"
+  },
+   {
+    "id": "bshm-8",
+    "title": "Fundamentals of Hotel Housekeeping",
+    "author": "Devesh Bhushan",
+    "publisher": "Centrum Press",
+    "publicationYear": "2012",
+    "description": "A comprehensive guide to the principles and practices of hotel housekeeping.",
+    "coverImage": "../Images/fundamentals_of_hotel_housekeeping.jpg"
+  },
+  {
+    "id": "bshm-9",
+    "title": "Events Management Services: Advanced",
+    "author": "3G E-learning LLC",
+    "publisher": "3G E-learning LLC",
+    "publicationYear": "2016",
+    "description": "Advanced concepts and competencies in planning and managing events, functions, or conferences.",
+    "coverImage": "../Images/events_management_services_advanced.jpg"
+  },
+  {
+  "id": "bshm-10",
+  "title": "Total Quality Management",
+  "author": "Subburaj Ramasamy",
+  "publisher": "Tata McGraw-Hill Publishing Company Limited",
+  "publicationYear": "2010",
+  "description": "A comprehensive guide to the principles and practices of Total Quality Management (TQM), focusing on quality improvement and management strategies.",
+  "coverImage": "../Images/total_quality_management.jpg"
+},
+  {
+  "id": "bshm-11",
+  "title": "Practicum Manual in Hotel and Restaurant Management: Baking NC II, Bartending NC II, Commercial Cooking NC II, Food and Beverage NC II, Front Office Services II, Housekeeping NC II",
+  "author": ["Celia E. Cariño", "Winifredo F. Garcia", "Dominador D. De Asis Jr.", "Stilo Floyd Schneider"],
+  "publisher": "Mutya Publishing House, Inc.",
+  "publicationYear": "2013",
+  "description": "This manual provides practical guidance for students undergoing practicum in hotel and restaurant management, covering various National Certificate II (NC II) competencies such as baking, bartending, commercial cooking, food and beverage service, front office services, and housekeeping.",
+  "coverImage": "../Images/practicum_manual_hrm.jpg"
+}
+    
+
+    
+]
