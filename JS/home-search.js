@@ -210,3 +210,105 @@ function displayHomeSearchResults(books, searchTerm) {
     // Make sure the results are visible
     resultsContainer.style.display = 'block';
 }
+
+// Parallax effect for elements
+document.addEventListener('DOMContentLoaded', function() {
+    const logo = document.getElementById('logo');
+    const title = document.getElementById('title');
+    const paragraphs = document.querySelectorAll('#home p');
+    const statBoxes = document.querySelectorAll('.stat-box');
+
+    
+    // Initialize the search button functionality
+    const searchButton = document.getElementById('searchButton');
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('search-results');
+    
+    if (searchButton && searchInput && searchResults) {
+        // Apply glassmorphism effect to search results
+        searchButton.addEventListener('click', function() {
+            if (searchInput.value.trim() !== '') {
+                // Display the search results container
+                searchResults.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+                
+                // Create a sample search results UI with glassmorphism
+                searchResults.innerHTML = `
+                    <div class="search-results-header">
+                        <div>
+                            <h2>Search results for: "${searchInput.value}"</h2>
+                            <p>Showing best matches from our library</p>
+                        </div>
+                        <button class="close-results-btn">Close</button>
+                    </div>
+                    <div class="search-results-grid">
+                        <div class="program-results">
+                            <h3>Academic Resources</h3>
+                            <div class="program-books">
+                                <!-- Sample Book Cards -->
+                                ${generateSampleBookCards(5)}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // Add click event to close button
+                const closeButton = searchResults.querySelector('.close-results-btn');
+                if (closeButton) {
+                    closeButton.addEventListener('click', function() {
+                        searchResults.style.display = 'none';
+                        document.body.style.overflow = 'auto'; // Enable scrolling
+                    });
+                }
+                
+                // Apply parallax to the book cards
+                const bookCards = searchResults.querySelectorAll('.book-card');
+                bookCards.forEach((card, index) => {
+                    card.style.animationDelay = `${0.1 + (index * 0.05)}s`;
+                });
+            }
+        });
+    }
+    
+    // Function to generate sample book cards for demo purposes
+    function generateSampleBookCards(count) {
+        let cards = '';
+        for (let i = 0; i < count; i++) {
+            cards += `
+                <div class="book-card glass-effect">
+                    <div class="book-cover" style="background-color: hsl(${i * 60}, 70%, 60%);">
+                        <span class="book-icon">📚</span>
+                    </div>
+                    <div class="book-info">
+                        <h4>Sample Resource ${i + 1}</h4>
+                        <p class="book-author">Author Name</p>
+                        <p class="book-description">A brief description of this academic resource and what topics it covers.</p>
+                        <div class="book-meta">
+                            <span class="book-rating">★★★★☆</span>
+                            <span class="book-category">Category ${i % 3 + 1}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        return cards;
+    }
+});
+
+// Add smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+

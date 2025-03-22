@@ -1,0 +1,12 @@
+{
+    "mssql.connections": [
+      {
+        "server": "Apple\\SQLEXPRESS",
+        "database": "libraryAdmin",
+        "user": "libraryAdmin",
+        "password": "password",
+        "trustServerCertificate": true
+      }
+    ]
+  }
+  
