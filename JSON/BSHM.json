@@ -1,42 +1,40 @@
 [
-    {
-      "id": "bshm-1",
-      "title": "Philippine International Culinary Encyclopedia",
-      "author": "Jeremy C. Malcampo",
-      "publisher": "Rex Book Store, 2016",
-      "publicationYear": "2016",
-      "description": "This book discuss the international culinary encylopedia where methods strategies that may help for BSHM career oppurtunities",
-      "coverImage": "../Images/ece.jpg"
-    },
-
+  {
+    "id": "bshm-1",
+    "title": "Philippine International Culinary Encyclopedia",
+    "author": "Jeremy C. Malcampo",
+    "publisher": "Rex Book Store, 2016",
+    "publicationYear": "2016",
+    "description": "This book discuss the international culinary encylopedia where methods strategies that may help for BSHM career oppurtunities",
+    "coverImage": "../Images/ece.jpg"
+  },
   {
     "id": "bshm-2",
     "title": "Environment And Tourism",
     "author": "Geentanjali",
-    "publisher":"Centrum Press"
+    "publisher": "Centrum Press",
     "publicationYear": "2010",
-    "description": "this book discuss the relationship between the environment and tourism and how to handle toursim without affecting the environment it also discusses the effect of toursim in the environment",
-    "coverImage":"../Images/ece.jpg"
+    "description": "This book discuss the relationship between the environment and tourism and how to handle toursim without affecting the environment it also discusses the effect of toursim in the environment",
+    "coverImage": "../Images/ece.jpg"
   },
-
   {
-    "id": "bshm-3"
-    "title" : "Principles Of Toursim Part II",
-    "author" : "Zenaida L. Cruz, Ph.D",
-    "publisher" : "Rex Bookstore , Inc",
+    "id": "bshm-3",
+    "title": "Principles Of Toursim Part II",
+    "author": "Zenaida L. Cruz, Ph.D",
+    "publisher": "Rex Bookstore , Inc",
     "publisherYear": "2005",
-    "description" : "this book discusses the history ,fundamentals and principles of the toursim industry in the Philippines, It shows on how does the industry work and what are the steps for it to simplfy entertainment and your employees",
+    "description": "This book discusses the history ,fundamentals and principles of the toursim industry in the Philippines, It shows on how does the industry work and what are the steps for it to simplfy entertainment and your employees",
     "coverImage": "../Images/ece.jb"
   },
   {
     "id": "bshm-4",
-    "title" : " Bars & Beverage Service with Mixology",
-    "author" : "Lorenzo G. Rojo",
-    "publsiher" : "Mindshaper's Co, In",
-    "publicationYear" : "2012",
-    "description" : "this book provides an indepth analysis on bars and beverage services, it also provides a catalog of mixology for different drinks for students to learn",
-    "coverImage" : "../Image/ecc.jpg",
-  }
+    "title": " Bars & Beverage Service with Mixology",
+    "author": "Lorenzo G. Rojo",
+    "publsiher": "Mindshaper's Co, In",
+    "publicationYear": "2012",
+    "description": "this book provides an indepth analysis on bars and beverage services, it also provides a catalog of mixology for different drinks for students to learn",
+    "coverImage": "../Image/ecc.jpg"
+  },
   {
     "id": "bshm-5",
     "title": "Bar and Beverage Management",
@@ -64,7 +62,7 @@
     "description": "An introductory guide to wine tasting, covering techniques and tips for beginners.",
     "coverImage": "../Images/a_little_course_in_wine_tasting.jpg"
   },
-   {
+  {
     "id": "bshm-8",
     "title": "Fundamentals of Hotel Housekeeping",
     "author": "Devesh Bhushan",
@@ -83,323 +81,310 @@
     "coverImage": "../Images/events_management_services_advanced.jpg"
   },
   {
-  "id": "bshm-10",
-  "title": "Total Quality Management",
-  "author": "Subburaj Ramasamy",
-  "publisher": "Tata McGraw-Hill Publishing Company Limited",
-  "publicationYear": "2010",
-  "description": "A comprehensive guide to the principles and practices of Total Quality Management (TQM), focusing on quality improvement and management strategies.",
-  "coverImage": "../Images/total_quality_management.jpg"
-},
+    "id": "bshm-10",
+    "title": "Total Quality Management",
+    "author": "Subburaj Ramasamy",
+    "publisher": "Tata McGraw-Hill Publishing Company Limited",
+    "publicationYear": "2010",
+    "description": "A comprehensive guide to the principles and practices of Total Quality Management (TQM), focusing on quality improvement and management strategies.",
+    "coverImage": "../Images/total_quality_management.jpg"
+  },
   {
-  "id": "bshm-11",
-  "title": "Practicum Manual in Hotel and Restaurant Management: Baking NC II, Bartending NC II, Commercial Cooking NC II, Food and Beverage NC II, Front Office Services II, Housekeeping NC II",
-  "author": ["Celia E. Cariño", "Winifredo F. Garcia", "Dominador D. De Asis Jr.", "Stilo Floyd Schneider"],
-  "publisher": "Mutya Publishing House, Inc.",
-  "publicationYear": "2013",
-  "description": "This manual provides practical guidance for students undergoing practicum in hotel and restaurant management, covering various National Certificate II (NC II) competencies such as baking, bartending, commercial cooking, food and beverage service, front office services, and housekeeping.",
-  "coverImage": "../Images/practicum_manual_hrm.jpg"
-},
-{
-  "id": "bshm-12",
-  "title": "Events Management Services: Advanced",
-  "author": "3G E-learning LLC",
-  "publisher": "3G E-learning LLC",
-  "publicationYear": "2016",
-  "description": "This book covers the competencies required to coordinate events, functions, or conferences in various settings such as conference centers, hotels, clubs, resorts, and luxury liners. It includes competencies on event planning, such as developing event proposals, concepts, and programs, selecting venues and sites, and updating event industry knowledge.",
-  "coverImage": "../Images/events_management_services_advanced.jpg"
-},
-
-{
-  "id": "bshm-13",
-  "title": "Fundamentals of Marketing in the Philippine Setting",
-  "author": ["Josiah Go", "Chiqui Escareal-Go"],
-  "publisher": "Josiah and Carolina Go Foundation",
-  "publicationYear": "2010",
-  "description": "This book offers an in-depth exploration of marketing principles tailored to the Philippine context, covering topics such as market segmentation, the marketing mix, product strategy, and customer service.",
-  "coverImage": "../Images/fundamentals_of_marketing_philippines.jpg"
-},
-    {
-  "id": "bshm-14",
-  "title": "Fundamentals of Food Service Operations",
-  "author": "Rodolfo A. Ang",
-  "publisher": "Rex Book Store",
-  "publicationYear": "2010",
-  "description": "This book provides a comprehensive overview of food service operations, covering essential topics such as menu planning, kitchen organization, food safety, and customer service, tailored to the Philippine setting.",
-  "coverImage": "../Images/fundamentals_of_food_service_operations.jpg"
-},
-    {
-  "id": "bshm-15",
-  "title": "Bar and Beverage Management",
-  "author": "Noah Carlisle",
-  "publisher": "Random Publications",
-  "publicationYear": "2014",
-  "description": "This book offers comprehensive insights into the management of bars and beverage operations, covering topics such as bartending techniques, alcoholic beverages, and effective management of drinking establishments.",
-  "coverImage": "../Images/bar_and_beverage_management.jpg"
-},
-{
-  "id": "bshm-16",
-  "title": "Philippine Recipes and Other International Recipes",
-  "author": "Unknown",
-  "publisher": "Unknown",
-  "publicationYear": "Unknown",
-  "description": "A collection of traditional Filipino recipes alongside popular international dishes.",
-  "coverImage": "../Images/philippine_recipes_and_other_international_recipes.jpg"
-},
-{
-  "id": "bshm-17",
-  "title": "Case Scenarios in Hospitality Supervision",
-  "author": "Peter Szende",
-  "publisher": "Delmar Cengage Learning",
-  "publicationYear": "2009",
-  "description": "This book presents 75 vignettes depicting real-life managerial dilemmas in the setting of the fictional Royal Hotel, focusing on scenarios that often happen to new managers, with an emphasis on sharpening critical thinking abilities and developing leadership skills.",
-  "coverImage": "../Images/case_scenarios_in_hospitality_supervision.jpg"
-},
-{
-  "id": "bshm-18",
-  "title": "Service That Sells!: The Art of Profitable Hospitality",
-  "author": ["Phil Roberts", "Jim Sullivan"],
-  "publisher": "Pencom Press",
-  "publicationYear": "1991",
-  "description": "This book offers strategies for enhancing service quality and increasing profitability in the hospitality industry, focusing on building repeat business, improving guest loyalty, and effective marketing programs.",
-  "coverImage": "../Images/service_that_sells.jpg"
-},
-{
-  "id": "bshm-19",
-  "title": "Start Your Own Bar and Club: Sports Bars, Nightclubs, Neighborhood Bars, Wine Bars, and More",
-  "author": "Entrepreneur Press",
-  "publisher": "Entrepreneur Press",
-  "publicationYear": "2009",
-  "description": "This comprehensive guide provides aspiring entrepreneurs with the knowledge and tools needed to start and run a successful bar or club. It covers various types of establishments, including sports bars, nightclubs, neighborhood bars, and wine bars, offering insights into market research, location selection, licensing, layout design, equipment procurement, inventory management, operations, staffing, entertainment, marketing, and financial management.",
-  "coverImage": "../Images/start_your_own_bar_and_club.jpg"
-},
-{
-  "id": "bshm-20",
-  "title": "The Sauce Bible: 400 Fail-Safe Recipes to Transform Everyday Dishes into Feasts, Shown Step by Step in 1400 Photographs",
-  "author": ["Catherine Atkinson", "Christine France", "Maggie Mayhew"],
-  "publisher": "Southwater Publishing",
-  "publicationYear": "2012",
-  "description": "This comprehensive guide offers 400 reliable recipes designed to elevate everyday meals into extraordinary feasts. Covering a wide array of accompaniments—from classic sauces to spiced mustards—the book provides step-by-step instructions accompanied by 1,400 photographs, making it accessible for both novice and experienced cooks.",
-  "coverImage": "../Images/the_sauce_bible.jpg"
-},
-{
-  "id": "bshm-21",
-  "title": "Learn and Practice Hotel Housekeeping",
-  "author": ["Celia E. Cariño", "Jennefer L. Yap"],
-  "publisher": "Mindshapers Co., Inc.",
-  "publicationYear": "2013",
-  "description": "This book provides a comprehensive guide to hotel housekeeping, covering topics such as housekeeping profiles, areas, standards, principles of cleaning, types of cleaning, hotel amenities, cleaning tools and equipment, cleaning procedures by area, other housekeeping tasks, and laundry operation.",
-  "coverImage": "../Images/learn_and_practice_hotel_housekeeping.jpg"
-},
-{
-  "id": "bshm-22",
-  "title": "Key Concepts in Event Management",
-  "author": "Bernadette Quinn",
-  "publisher": "SAGE Publications Ltd",
-  "publicationYear": "2013",
-  "description": "This book provides a comprehensive overview of essential concepts in event management, offering students and professionals insights into the theoretical frameworks and practical applications within the event and festival industry.",
-  "coverImage": "../Images/key_concepts_in_event_management.jpg"
-},
-{
-  "id": "bshm-23",
-  "title": "Fundamentals of Strategic Management",
-  "author": "Norberto A. Orcullo Jr.",
-  "publisher": "Rex Book Store",
-  "publicationYear": "2007",
-  "description": "This book introduces undergraduate students and beginners to the theories and principles of strategic management, covering essential topics such as strategic planning, implementation, and evaluation.",
-  "coverImage": "../Images/fundamentals_of_strategic_management.jpg"
-},
-{
-  "id": "bshm-24",
-  "title": "Risk Management with HACCP",
-  "author": "Mylene A. Yeung",
-  "publisher": "National Book Store",
-  "publicationYear": "2015",
-  "description": "This book provides an in-depth guide to risk management strategies using the HACCP (Hazard Analysis and Critical Control Point) system, essential for ensuring food safety and quality in hospitality and food service industries.",
-  "coverImage": "../Images/risk_management_with_haccp.jpg"
-},
-{
-  "id": "bshm-25",
-  "title": "Purchasing and Costing for the Hospitality Industry (Book with DVD)",
-  "author": "3G E-Learning",
-  "publisher": "3G E-Learning LLC",
-  "publicationYear": "2019",
-  "description": "This book offers comprehensive insights into purchasing and costing strategies within the hospitality industry. It serves as an ideal resource for professionals seeking to enhance cost containment beyond traditional cost control methods.",
-  "coverImage": "../Images/purchasing_and_costing_for_the_hospitality_industry.jpg"
-},
-{
-  "id": "bshm-26",
-  "title": "Your Food and You: A Guide to Better Nutrition",
-  "author": "Philippine Publishing House",
-  "publisher": "Philippine Publishing House",
-  "publicationYear": "2003",
-  "description": "This guide provides insights into better nutrition, focusing on the relationship between food and health, and offers practical advice for a balanced diet.",
-  "coverImage": "../Images/your_food_and_you.jpg"
-},
-{
-  "id": "bshm-27",
-  "title": "Sustainable Tourism: Principles, Contexts and Practices",
-  "author": ["David A. Fennell", "Chris Cooper"],
-  "publisher": "Channel View Publications",
-  "publicationYear": "2020",
-  "description": "This textbook offers a comprehensive overview of sustainable tourism, framed around the United Nations' Sustainable Development Goals. It examines the origins and dimensions of sustainable tourism and provides detailed accounts of sustainable initiatives and management across destinations, the tourism industry, public sector, and leading agencies.",
-  "coverImage": "../Images/sustainable_tourism_principles_contexts_practices.jpg"
-},
-{
-  "id": "bshm-28",
-  "title": "Thermal Processing of Foods: Control and Automation",
-  "author": "K. P. Sandeep",
-  "publisher": "Wiley-Blackwell",
-  "publicationYear": "2011",
-  "description": "This book explores the application of automated control systems in the thermal processing of foods, discussing the evolution and validation of sophisticated software-driven, on-line control systems in the food industry.",
-  "coverImage": "../Images/thermal_processing_of_foods.jpg"
-},
-{
-  "id": "bshm-29",
-  "title": "Hotel Organisation & Front Office Management",
-  "author": "R.K. Arora",
-  "publisher": "APH Publishing Corporation",
-  "publicationYear": "2009",
-  "description": "This book provides comprehensive insights into the structure and management of hotel organizations, with a particular focus on front office operations. It covers essential topics such as guest services, reservation systems, and the role of information technology in enhancing front office efficiency.",
-  "coverImage": "../Images/hotel_organisation_front_office_management.jpg"
-},
-{
-  "id": "bshm-30",
-  "title": "Korean Grammar: The Complete Guide to Speaking Korean Naturally",
-  "author": ["Soohee Kim", "Emily Curtis", "Haewon Cho"],
-  "publisher": "Tuttle Publishing",
-  "publicationYear": "2017",
-  "description": "This comprehensive guide covers all the basic sentence structures, verbal forms, and idiomatic expressions taught in the first two years of a college-level Korean language course. It is designed for students taking a Korean language course, self-study learners, and heritage learners who wish to communicate more effectively in Korean.",
-  "coverImage": "../Images/korean_grammar_complete_guide.jpg"
-},
-{
-  "id": "bshm-31",
-  "title": "Introduction to Food Microbiology",
-  "author": "Kamal Duggal",
-  "publisher": "Cyber Tech Publications",
-  "publicationYear": "2011",
-  "description": "This book provides an in-depth exploration of food microbiology, covering topics such as the role of microorganisms in food production, spoilage, and safety. It delves into the principles of fermentation, preservation techniques, and the impact of microbes on food quality and human health.",
-  "coverImage": "../Images/introduction_to_food_microbiology.jpg"
-},
-{
-  "id": "bshm-32",
-  "title": "Housekeeping Management",
-  "author": "James Patrick",
-  "publisher": "Unknown",
-  "publicationYear": "2013",
-  "description": "This book provides comprehensive insights into the principles and practices of housekeeping management within the hospitality industry, covering topics such as cleaning techniques, staff management, and operational efficiency.",
-  "coverImage": "../Images/housekeeping_management.jpg"
-},
-{
-  "id": "bshm-33",
-  "title": "Business Communication: Building Critical Skills",
-  "author": ["Kitty O. Locker", "Stephen Kyo Kaczmarek"],
-  "publisher": "McGraw-Hill Education",
-  "publicationYear": "2018",
-  "description": "This book focuses on developing essential business communication skills, emphasizing critical thinking and practical application in professional contexts.",
-  "coverImage": "../Images/business_communication_building_critical_skills.jpg"
-},
-{
-  "id": "bshm-34",
-  "title": "Window to Hotel Management",
-  "author": "Ashim Gupta",
-  "publisher": "Random Publications",
-  "publicationYear": "2014",
-  "description": "This book provides insights into the field of hotel management, covering various aspects of the hospitality industry.",
-  "coverImage": "../Images/window_to_hotel_management.jpg"
-},
-{
-  "id": "bshm-35",
-  "title": "500 Italian Dishes: The Only Compendium of Italian Dishes You'll Ever Need",
-  "author": "Valentina Sforza",
-  "publisher": "Apple Press",
-  "publicationYear": "2010",
-  "description": "This book is a guide to everyday Italian cooking, offering a collection of 500 recipes that blend traditional and contemporary dishes. It provides clear instructions and tips, covering various courses of a full Italian meal, including an extra chapter on party food.",
-  "coverImage": "../Images/500_italian_dishes.jpg"
-},
-{
-  "id": "bshm-36",
-  "title": "Running a Bed & Breakfast for Dummies",
-  "author": "Mary White",
-  "publisher": "For Dummies",
-  "publicationYear": "2009",
-  "description": "A comprehensive guide for starting and managing a successful bed and breakfast business. Covers property setup, marketing strategies, guest experience, and operational tips to ensure profitability and customer satisfaction.",
-  "coverImage": "../Images/running_bnb_dummies.jpg"
-},
-{
-  "id": "bshm-37",
-  "title": "Techniques of Healthy Cooking",
-  "author": "The Culinary Institute of America (CIA)",
-  "publisher": "Wiley",
-  "publicationYear": "2013",
-  "description": "This comprehensive kitchen reference from The Culinary Institute of America provides an in-depth understanding of nutrition concepts, healthy eating patterns, recipe development, and cooking techniques. It features nearly 500 recipes, including soups, salads, appetizers, and main dishes for breakfast, lunch, and dinner, along with over 150 full-color photographs of ingredients, techniques, and finished dishes.",
-  "coverImage": "../Images/techniques_of_healthy_cooking.jpg"
-},
-{
-  "id": "bshm-39",
-  "title": "Umami Recipes: Discover the Fifth Taste",
-  "author": "Ajinomoto Group",
-  "publisher": "Ajinomoto Co., Inc.",
-  "publicationYear": "2021",
-  "description": "This collection showcases a variety of recipes that highlight umami, the fifth basic taste. Curated by the Ajinomoto Group, the book offers dishes from around the world, emphasizing the use of umami-rich ingredients to enhance flavor.",
-  "coverImage": "../Images/umami_recipes_ajinomoto.jpg"
-},
-{
-  "id": "bshm-40",
-  "title": "The Complete Guide to Successful Event Planning",
-  "author": "Shannon Kilkenny",
-  "publisher": "Atlantic Publishing Group Inc.",
-  "publicationYear": "2011",
-  "description": "This comprehensive guide offers practical advice and strategies for planning a wide range of events, from casual gatherings to black-tie galas. It covers essential topics such as budgeting, venue selection, catering, entertainment, and logistics, providing event planners with the tools needed to execute successful events.",
-  "coverImage": "../Images/complete_guide_successful_event_planning.jpg"
-},
-{
-  "id": "bshm-41",
-  "title": "100 Classic Napkin Folds: Simple and Stylish Napkins for Every Occasion",
-  "author": "Rick Beech",
-  "publisher": "Southwater",
-  "publicationYear": "2010",
-  "description": "This comprehensive guide offers 100 napkin folding designs suitable for various table settings and occasions. Each fold is presented with step-by-step instructions and over 700 photographs, ranging from simple designs to more intricate creations, enabling readers to enhance their dining presentations.",
-  "coverImage": "../Images/100_classic_napkin_folds.jpg"
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-    
-
-    
+    "id": "bshm-11",
+    "title": "Practicum Manual in Hotel and Restaurant Management: Baking NC II, Bartending NC II, Commercial Cooking NC II, Food and Beverage NC II, Front Office Services II, Housekeeping NC II",
+    "author": [
+      "Celia E. Cariño",
+      "Winifredo F. Garcia",
+      "Dominador D. De Asis Jr.",
+      "Stilo Floyd Schneider"
+    ],
+    "publisher": "Mutya Publishing House, Inc.",
+    "publicationYear": "2013",
+    "description": "This manual provides practical guidance for students undergoing practicum in hotel and restaurant management, covering various National Certificate II (NC II) competencies such as baking, bartending, commercial cooking, food and beverage service, front office services, and housekeeping.",
+    "coverImage": "../Images/practicum_manual_hrm.jpg"
+  },
+  {
+    "id": "bshm-12",
+    "title": "Events Management Services: Advanced",
+    "author": "3G E-learning LLC",
+    "publisher": "3G E-learning LLC",
+    "publicationYear": "2016",
+    "description": "This book covers the competencies required to coordinate events, functions, or conferences in various settings such as conference centers, hotels, clubs, resorts, and luxury liners. It includes competencies on event planning, such as developing event proposals, concepts, and programs, selecting venues and sites, and updating event industry knowledge.",
+    "coverImage": "../Images/events_management_services_advanced.jpg"
+  },
+  {
+    "id": "bshm-13",
+    "title": "Fundamentals of Marketing in the Philippine Setting",
+    "author": [
+      "Josiah Go",
+      "Chiqui Escareal-Go"
+    ],
+    "publisher": "Josiah and Carolina Go Foundation",
+    "publicationYear": "2010",
+    "description": "This book offers an in-depth exploration of marketing principles tailored to the Philippine context, covering topics such as market segmentation, the marketing mix, product strategy, and customer service.",
+    "coverImage": "../Images/fundamentals_of_marketing_philippines.jpg"
+  },
+  {
+    "id": "bshm-14",
+    "title": "Fundamentals of Food Service Operations",
+    "author": "Rodolfo A. Ang",
+    "publisher": "Rex Book Store",
+    "publicationYear": "2010",
+    "description": "This book provides a comprehensive overview of food service operations, covering essential topics such as menu planning, kitchen organization, food safety, and customer service, tailored to the Philippine setting.",
+    "coverImage": "../Images/fundamentals_of_food_service_operations.jpg"
+  },
+  {
+    "id": "bshm-15",
+    "title": "Bar and Beverage Management",
+    "author": "Noah Carlisle",
+    "publisher": "Random Publications",
+    "publicationYear": "2014",
+    "description": "This book offers comprehensive insights into the management of bars and beverage operations, covering topics such as bartending techniques, alcoholic beverages, and effective management of drinking establishments.",
+    "coverImage": "../Images/bar_and_beverage_management.jpg"
+  },
+  {
+    "id": "bshm-16",
+    "title": "Philippine Recipes and Other International Recipes",
+    "author": "Unknown",
+    "publisher": "Unknown",
+    "publicationYear": "Unknown",
+    "description": "A collection of traditional Filipino recipes alongside popular international dishes.",
+    "coverImage": "../Images/philippine_recipes_and_other_international_recipes.jpg"
+  },
+  {
+    "id": "bshm-17",
+    "title": "Case Scenarios in Hospitality Supervision",
+    "author": "Peter Szende",
+    "publisher": "Delmar Cengage Learning",
+    "publicationYear": "2009",
+    "description": "This book presents 75 vignettes depicting real-life managerial dilemmas in the setting of the fictional Royal Hotel, focusing on scenarios that often happen to new managers, with an emphasis on sharpening critical thinking abilities and developing leadership skills.",
+    "coverImage": "../Images/case_scenarios_in_hospitality_supervision.jpg"
+  },
+  {
+    "id": "bshm-18",
+    "title": "Service That Sells!: The Art of Profitable Hospitality",
+    "author": [
+      "Phil Roberts",
+      "Jim Sullivan"
+    ],
+    "publisher": "Pencom Press",
+    "publicationYear": "1991",
+    "description": "This book offers strategies for enhancing service quality and increasing profitability in the hospitality industry, focusing on building repeat business, improving guest loyalty, and effective marketing programs.",
+    "coverImage": "../Images/service_that_sells.jpg"
+  },
+  {
+    "id": "bshm-19",
+    "title": "Start Your Own Bar and Club: Sports Bars, Nightclubs, Neighborhood Bars, Wine Bars, and More",
+    "author": "Entrepreneur Press",
+    "publisher": "Entrepreneur Press",
+    "publicationYear": "2009",
+    "description": "This comprehensive guide provides aspiring entrepreneurs with the knowledge and tools needed to start and run a successful bar or club. It covers various types of establishments, including sports bars, nightclubs, neighborhood bars, and wine bars, offering insights into market research, location selection, licensing, layout design, equipment procurement, inventory management, operations, staffing, entertainment, marketing, and financial management.",
+    "coverImage": "../Images/start_your_own_bar_and_club.jpg"
+  },
+  {
+    "id": "bshm-20",
+    "title": "The Sauce Bible: 400 Fail-Safe Recipes to Transform Everyday Dishes into Feasts, Shown Step by Step in 1400 Photographs",
+    "author": [
+      "Catherine Atkinson",
+      "Christine France",
+      "Maggie Mayhew"
+    ],
+    "publisher": "Southwater Publishing",
+    "publicationYear": "2012",
+    "description": "This comprehensive guide offers 400 reliable recipes designed to elevate everyday meals into extraordinary feasts. Covering a wide array of accompaniments—from classic sauces to spiced mustards—the book provides step-by-step instructions accompanied by 1,400 photographs, making it accessible for both novice and experienced cooks.",
+    "coverImage": "../Images/the_sauce_bible.jpg"
+  },
+  {
+    "id": "bshm-21",
+    "title": "Learn and Practice Hotel Housekeeping",
+    "author": [
+      "Celia E. Cariño",
+      "Jennefer L. Yap"
+    ],
+    "publisher": "Mindshapers Co., Inc.",
+    "publicationYear": "2013",
+    "description": "This book provides a comprehensive guide to hotel housekeeping, covering topics such as housekeeping profiles, areas, standards, principles of cleaning, types of cleaning, hotel amenities, cleaning tools and equipment, cleaning procedures by area, other housekeeping tasks, and laundry operation.",
+    "coverImage": "../Images/learn_and_practice_hotel_housekeeping.jpg"
+  },
+  {
+    "id": "bshm-22",
+    "title": "Key Concepts in Event Management",
+    "author": "Bernadette Quinn",
+    "publisher": "SAGE Publications Ltd",
+    "publicationYear": "2013",
+    "description": "This book provides a comprehensive overview of essential concepts in event management, offering students and professionals insights into the theoretical frameworks and practical applications within the event and festival industry.",
+    "coverImage": "../Images/key_concepts_in_event_management.jpg"
+  },
+  {
+    "id": "bshm-23",
+    "title": "Fundamentals of Strategic Management",
+    "author": "Norberto A. Orcullo Jr.",
+    "publisher": "Rex Book Store",
+    "publicationYear": "2007",
+    "description": "This book introduces undergraduate students and beginners to the theories and principles of strategic management, covering essential topics such as strategic planning, implementation, and evaluation.",
+    "coverImage": "../Images/fundamentals_of_strategic_management.jpg"
+  },
+  {
+    "id": "bshm-24",
+    "title": "Risk Management with HACCP",
+    "author": "Mylene A. Yeung",
+    "publisher": "National Book Store",
+    "publicationYear": "2015",
+    "description": "This book provides an in-depth guide to risk management strategies using the HACCP (Hazard Analysis and Critical Control Point) system, essential for ensuring food safety and quality in hospitality and food service industries.",
+    "coverImage": "../Images/risk_management_with_haccp.jpg"
+  },
+  {
+    "id": "bshm-25",
+    "title": "Purchasing and Costing for the Hospitality Industry (Book with DVD)",
+    "author": "3G E-Learning",
+    "publisher": "3G E-Learning LLC",
+    "publicationYear": "2019",
+    "description": "This book offers comprehensive insights into purchasing and costing strategies within the hospitality industry. It serves as an ideal resource for professionals seeking to enhance cost containment beyond traditional cost control methods.",
+    "coverImage": "../Images/purchasing_and_costing_for_the_hospitality_industry.jpg"
+  },
+  {
+    "id": "bshm-26",
+    "title": "Your Food and You: A Guide to Better Nutrition",
+    "author": "Philippine Publishing House",
+    "publisher": "Philippine Publishing House",
+    "publicationYear": "2003",
+    "description": "This guide provides insights into better nutrition, focusing on the relationship between food and health, and offers practical advice for a balanced diet.",
+    "coverImage": "../Images/your_food_and_you.jpg"
+  },
+  {
+    "id": "bshm-27",
+    "title": "Sustainable Tourism: Principles, Contexts and Practices",
+    "author": [
+      "David A. Fennell",
+      "Chris Cooper"
+    ],
+    "publisher": "Channel View Publications",
+    "publicationYear": "2020",
+    "description": "This textbook offers a comprehensive overview of sustainable tourism, framed around the United Nations' Sustainable Development Goals. It examines the origins and dimensions of sustainable tourism and provides detailed accounts of sustainable initiatives and management across destinations, the tourism industry, public sector, and leading agencies.",
+    "coverImage": "../Images/sustainable_tourism_principles_contexts_practices.jpg"
+  },
+  {
+    "id": "bshm-28",
+    "title": "Thermal Processing of Foods: Control and Automation",
+    "author": "K. P. Sandeep",
+    "publisher": "Wiley-Blackwell",
+    "publicationYear": "2011",
+    "description": "This book explores the application of automated control systems in the thermal processing of foods, discussing the evolution and validation of sophisticated software-driven, on-line control systems in the food industry.",
+    "coverImage": "../Images/thermal_processing_of_foods.jpg"
+  },
+  {
+    "id": "bshm-29",
+    "title": "Hotel Organisation & Front Office Management",
+    "author": "R.K. Arora",
+    "publisher": "APH Publishing Corporation",
+    "publicationYear": "2009",
+    "description": "This book provides comprehensive insights into the structure and management of hotel organizations, with a particular focus on front office operations. It covers essential topics such as guest services, reservation systems, and the role of information technology in enhancing front office efficiency.",
+    "coverImage": "../Images/hotel_organisation_front_office_management.jpg"
+  },
+  {
+    "id": "bshm-30",
+    "title": "Korean Grammar: The Complete Guide to Speaking Korean Naturally",
+    "author": [
+      "Soohee Kim",
+      "Emily Curtis",
+      "Haewon Cho"
+    ],
+    "publisher": "Tuttle Publishing",
+    "publicationYear": "2017",
+    "description": "This comprehensive guide covers all the basic sentence structures, verbal forms, and idiomatic expressions taught in the first two years of a college-level Korean language course. It is designed for students taking a Korean language course, self-study learners, and heritage learners who wish to communicate more effectively in Korean.",
+    "coverImage": "../Images/korean_grammar_complete_guide.jpg"
+  },
+  {
+    "id": "bshm-31",
+    "title": "Introduction to Food Microbiology",
+    "author": "Kamal Duggal",
+    "publisher": "Cyber Tech Publications",
+    "publicationYear": "2011",
+    "description": "This book provides an in-depth exploration of food microbiology, covering topics such as the role of microorganisms in food production, spoilage, and safety. It delves into the principles of fermentation, preservation techniques, and the impact of microbes on food quality and human health.",
+    "coverImage": "../Images/introduction_to_food_microbiology.jpg"
+  },
+  {
+    "id": "bshm-32",
+    "title": "Housekeeping Management",
+    "author": "James Patrick",
+    "publisher": "Unknown",
+    "publicationYear": "2013",
+    "description": "This book provides comprehensive insights into the principles and practices of housekeeping management within the hospitality industry, covering topics such as cleaning techniques, staff management, and operational efficiency.",
+    "coverImage": "../Images/housekeeping_management.jpg"
+  },
+  {
+    "id": "bshm-33",
+    "title": "Business Communication: Building Critical Skills",
+    "author": [
+      "Kitty O. Locker",
+      "Stephen Kyo Kaczmarek"
+    ],
+    "publisher": "McGraw-Hill Education",
+    "publicationYear": "2018",
+    "description": "This book focuses on developing essential business communication skills, emphasizing critical thinking and practical application in professional contexts.",
+    "coverImage": "../Images/business_communication_building_critical_skills.jpg"
+  },
+  {
+    "id": "bshm-34",
+    "title": "Window to Hotel Management",
+    "author": "Ashim Gupta",
+    "publisher": "Random Publications",
+    "publicationYear": "2014",
+    "description": "This book provides insights into the field of hotel management, covering various aspects of the hospitality industry.",
+    "coverImage": "../Images/window_to_hotel_management.jpg"
+  },
+  {
+    "id": "bshm-35",
+    "title": "500 Italian Dishes: The Only Compendium of Italian Dishes You'll Ever Need",
+    "author": "Valentina Sforza",
+    "publisher": "Apple Press",
+    "publicationYear": "2010",
+    "description": "This book is a guide to everyday Italian cooking, offering a collection of 500 recipes that blend traditional and contemporary dishes. It provides clear instructions and tips, covering various courses of a full Italian meal, including an extra chapter on party food.",
+    "coverImage": "../Images/500_italian_dishes.jpg"
+  },
+  {
+    "id": "bshm-36",
+    "title": "Running a Bed & Breakfast for Dummies",
+    "author": "Mary White",
+    "publisher": "For Dummies",
+    "publicationYear": "2009",
+    "description": "A comprehensive guide for starting and managing a successful bed and breakfast business. Covers property setup, marketing strategies, guest experience, and operational tips to ensure profitability and customer satisfaction.",
+    "coverImage": "../Images/running_bnb_dummies.jpg"
+  },
+  {
+    "id": "bshm-37",
+    "title": "Techniques of Healthy Cooking",
+    "author": "The Culinary Institute of America (CIA)",
+    "publisher": "Wiley",
+    "publicationYear": "2013",
+    "description": "This comprehensive kitchen reference from The Culinary Institute of America provides an in-depth understanding of nutrition concepts, healthy eating patterns, recipe development, and cooking techniques. It features nearly 500 recipes, including soups, salads, appetizers, and main dishes for breakfast, lunch, and dinner, along with over 150 full-color photographs of ingredients, techniques, and finished dishes.",
+    "coverImage": "../Images/techniques_of_healthy_cooking.jpg"
+  },
+  {
+    "id": "bshm-39",
+    "title": "Umami Recipes: Discover the Fifth Taste",
+    "author": "Ajinomoto Group",
+    "publisher": "Ajinomoto Co., Inc.",
+    "publicationYear": "2021",
+    "description": "This collection showcases a variety of recipes that highlight umami, the fifth basic taste. Curated by the Ajinomoto Group, the book offers dishes from around the world, emphasizing the use of umami-rich ingredients to enhance flavor.",
+    "coverImage": "../Images/umami_recipes_ajinomoto.jpg"
+  },
+  {
+    "id": "bshm-40",
+    "title": "The Complete Guide to Successful Event Planning",
+    "author": "Shannon Kilkenny",
+    "publisher": "Atlantic Publishing Group Inc.",
+    "publicationYear": "2011",
+    "description": "This comprehensive guide offers practical advice and strategies for planning a wide range of events, from casual gatherings to black-tie galas. It covers essential topics such as budgeting, venue selection, catering, entertainment, and logistics, providing event planners with the tools needed to execute successful events.",
+    "coverImage": "../Images/complete_guide_successful_event_planning.jpg"
+  },
+  {
+    "id": "bshm-41",
+    "title": "100 Classic Napkin Folds: Simple and Stylish Napkins for Every Occasion",
+    "author": "Rick Beech",
+    "publisher": "Southwater",
+    "publicationYear": "2010",
+    "description": "This comprehensive guide offers 100 napkin folding designs suitable for various table settings and occasions. Each fold is presented with step-by-step instructions and over 700 photographs, ranging from simple designs to more intricate creations, enabling readers to enhance their dining presentations.",
+    "coverImage": "../Images/100_classic_napkin_folds.jpg"
+  }
 ]

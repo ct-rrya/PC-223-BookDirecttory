@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CTU eLibrary: Connecting You to Knowledge</title>
     <link rel="stylesheet" href="/CSS/styles.css">
+    <!-- Add this line to include your home-search.js script -->
+    <script src="../JS/home-search.js" defer></script>
 </head>
 <body>
     <nav>
@@ -14,20 +16,19 @@
                 <li><a href="/HTML/browse.html">Browse Books</a></li>
                 <li><a href="#">About</a></li>
             </ul>
-            
+           
             <div class="search-container">
-                <input type="text" placeholder="Search books by title, author or subject...">
-                <button>Search</button>
+                <input type="text" id="searchInput" placeholder="Search books by title, author or subject...">
+                <button id="searchButton">Search</button>
             </div>
         </div>
     </nav>
-
     <section id="home">
         <img id="logo" src="/Images/CTU_new_logo-removebg-preview.png" alt="CTU Library Logo">
         <h1 id="title">CTU eLibrary</h1>
         <p>Connecting U To Knowledge</p>
         <p>The CTU Digital Library is an online platform designed to provide Cebu Technological University (CTU) students and faculty with easy access to academic resources. This digital library allows users to search, browse, and categorize books based on subjects, authors, and program-related materials.</p>
-        
+       
         <div class="stats-container">
             <div class="stat-box">
                 <div class="stat-number">10,000+</div>
@@ -37,5 +38,10 @@
                 <div class="stat-number">500+</div>
                 <div class="stat-text">Fiction Books</div>
             </div>
-     </section>
+        </div>
+        
+        <!-- This div will be used to display search results -->
+        <div id="search-results" class="search-results-container"></div>
+    </section>
 </body>
+</html>

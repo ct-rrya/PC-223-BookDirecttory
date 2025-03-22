@@ -28,7 +28,12 @@ function updateProgramTitle(program) {
     programTitle.textContent = programNames[program] || program + ' Books';
 }
 
+// Add this to your books.js file after the DOMContentLoaded event
+
 function loadBooks(program) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchParam = urlParams.get('search');
+    
     fetch(`../JSON/${program}.json`)
         .then(response => {
             if (!response.ok) {
@@ -38,7 +43,41 @@ function loadBooks(program) {
         })
         .then(programBooks => {
             document.getElementById('program-count').textContent = `${programBooks.length} books available`;
-            displayBooks(programBooks);
+            
+            // If there's a search parameter, filter the books immediately
+            if (searchParam) {
+                const searchTerm = searchParam.toLowerCase().trim();
+                
+                const filteredBooks = programBooks.filter(book => {
+                    return book.title.toLowerCase().includes(searchTerm) || 
+                           book.author.toLowerCase().includes(searchTerm) ||
+                           (book.description && book.description.toLowerCase().includes(searchTerm));
+                });
+                
+                document.getElementById('program-count').textContent = `${filteredBooks.length} books found`;
+                document.getElementById('searchInput').value = searchParam;
+                
+                displayBooks(filteredBooks);
+                
+                // Add a clear search button
+                const searchContainer = document.querySelector('.search-container');
+                if (!document.getElementById('clearSearchButton')) {
+                    const clearButton = document.createElement('button');
+                    clearButton.id = 'clearSearchButton';
+                    clearButton.textContent = 'Clear';
+                    clearButton.addEventListener('click', () => {
+                        document.getElementById('searchInput').value = '';
+                        displayBooks(programBooks);
+                        document.getElementById('program-count').textContent = `${programBooks.length} books available`;
+                        clearButton.style.display = 'none';
+                    });
+                    searchContainer.appendChild(clearButton);
+                } else {
+                    document.getElementById('clearSearchButton').style.display = 'block';
+                }
+            } else {
+                displayBooks(programBooks);
+            }
         })
         .catch(error => {
             console.error(`Error loading books for ${program}:`, error);
