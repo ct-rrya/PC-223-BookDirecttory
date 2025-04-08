@@ -1,4 +1,3 @@
-/* Color Palette - Consistent with dark neon homepage */
 :root {
     /* Dark Mode Neon Color Palette */
     --primary: #0a0e17;     /* Dark background */
@@ -11,7 +10,6 @@
     --text: #fffffe;        /* White text */
     --text-secondary: #94a1b2; /* Subdued text */
     
-    /* Enhanced Glassmorphism Variables */
     --glass-bg: linear-gradient(
         135deg, 
         rgba(20, 25, 35, 0.75), 
@@ -20,7 +18,7 @@
     --glass-border: rgba(255, 255, 255, 0.05);
     --glass-shadow: rgba(0, 0, 0, 0.4);
     
-    /* Neon Glow Effects */
+    /* glow fx */
     --cyan-glow: 0 0 15px rgba(0, 247, 255, 0.5), 0 0 30px rgba(0, 247, 255, 0.2);
     --magenta-glow: 0 0 15px rgba(254, 1, 115, 0.5), 0 0 30px rgba(254, 1, 115, 0.2);
     --purple-glow: 0 0 15px rgba(127, 90, 240, 0.5), 0 0 30px rgba(127, 90, 240, 0.2);
@@ -45,7 +43,6 @@ body {
     min-height: 100vh;
 }
 
-/* Dark Mode Glassmorphism Background with Neon Grid */
 body::before,
 body::after {
     content: '';
