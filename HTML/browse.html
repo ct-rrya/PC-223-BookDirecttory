@@ -7,19 +7,28 @@
     <link rel="stylesheet" href="/CSS/browse.css">
     <link rel="stylesheet" href="/CSS/styles.css">
     <script src="/JS/script.js" defer></script>
+    <script src="/JS/home-search.js" defer></script>
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <div class="nav-container">
-            <ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            
+            <ul id="navMenu">
                 <li><a href="/HTML/index.html">Home</a></li>
                 <li><a href="/HTML/browse.html">Browse Books</a></li>
                 <li><a href="#">About</a></li>
             </ul>
-            
+           
             <div class="search-container">
-                <input type="text" placeholder="Search books by title, author or subject...">
-                <button>Search</button>
+                <input type="text" id="searchInput" placeholder="Search books by title, author or subject...">
+                <button id="searchButton" onclick="showResults()">Search</button>
             </div>
         </div>
     </nav>
@@ -91,6 +100,15 @@
             </div>
             <!-- Slider controls will be added by JavaScript -->
         </div>
+
+        <div id="search-results" class="search-results-container" style="display: none"></div>
     </section>
+
+    <script>
+        function showResults() {
+    // Show the results only
+    document.getElementById('search-results').style.display = 'block';
+        }
+    </script>
 </body>
 </html>

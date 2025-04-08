@@ -295,20 +295,36 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Add smooth scrolling for navigation links
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
-        
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop,
-                behavior: 'smooth'
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const navMenu = document.getElementById('navMenu');
+            
+            // Toggle menu when hamburger is clicked
+            mobileMenuBtn.addEventListener('click', function() {
+                navMenu.classList.toggle('menu-open');
             });
-        }
-    });
-});
-
+            
+            // Close menu when clicking on a menu item
+            const menuItems = navMenu.querySelectorAll('a');
+            menuItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        navMenu.classList.remove('menu-open');
+                    }
+                });
+            });
+            
+            // Check screen size on load and resize
+            function checkScreenSize() {
+                if (window.innerWidth > 768) {
+                    mobileMenuBtn.style.display = 'none';
+                    navMenu.classList.remove('menu-open');
+                } else {
+                    mobileMenuBtn.style.display = 'block';
+                }
+            }
+            
+            window.addEventListener('resize', checkScreenSize);
+            checkScreenSize();
+        });

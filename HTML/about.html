@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - School Book Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            
+            <ul id="navMenu">
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/browse.html">Browse Books</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+           
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search books by title, author or subject...">
+                <button id="searchButton" onclick="showResults()">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="about-section">
+        <!-- Mission Section -->
+        <div class="glass-card mission-card">
+            <h2 class="section-title mission-title">Our Mission</h2>
+            <p class="section-content">
+                #### was born from a simple idea: make it easy for students to find the resources they need. Our mission is to bridge the gap between students and our school's extensive library collection through an intuitive, accessible digital platform. We believe that quick and efficient access to educational resources is fundamental to academic success.
+            </p>
+            <p class="section-content">
+                By eliminating the frustration of searching through physical catalogs or wandering library aisles, we're empowering students to spend less time searching and more time learning. Our platform provides real-time information about book availability, location, and content, making the entire library experience seamless from search to checkout.
+            </p>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="glass-card vision-card">
+            <h2 class="section-title vision-title">Our Vision</h2>
+            <p class="section-content">
+                We envision a school community where every student has equal, immediate access to educational resources regardless of their technical abilities or prior library experience. BookNexus aims to transform how students interact with our library collection by creating an engaging, modern interface that speaks to digital natives.
+            </p>
+            <p class="section-content">
+                Beyond just finding books, we see our platform as fostering a culture of reading and exploration. Through personalized recommendations, themed collections, and highlighting underutilized resources, we hope to inspire students to discover new subjects and authors they might never have encountered otherwise.
+            </p>
+        </div>
+
+        <!-- Future Plans Section -->
+        <div class="glass-card future-card">
+            <h2 class="section-title future-title">Future Plans</h2>
+            <p class="section-content">
+                BookNexus is just getting started. Our roadmap includes exciting features and enhancements designed to make our platform even more valuable to the school community.
+            </p>
+
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3 class="feature-title">Mobile App</h3>
+                    <p class="feature-description">A dedicated mobile application for iOS and Android that will allow students to search the catalog, place holds, and receive notifications on the go.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3 class="feature-title">AI-Powered Recommendations</h3>
+                    <p class="feature-description">Implementing a learning algorithm that suggests books based on student interests, academic subjects, and reading history.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3 class="feature-title">Digital Reading Integration</h3>
+                    <p class="feature-description">Expanding our catalog to include e-books and integrating with digital reading platforms for seamless access to electronic resources.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3 class="feature-title">Study Group Features</h3>
+                    <p class="feature-description">Creating collaborative spaces where students can form study groups around specific books or subjects, sharing notes and discussions.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3 class="feature-title">Teacher Integration</h3>
+                    <p class="feature-description">Tools for teachers to create curated reading lists for their classes and track resource availability for curriculum planning.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3 class="feature-title">AR Navigation</h3>
+                    <p class="feature-description">Augmented reality feature to guide students directly to book locations within the physical library space.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <div class="glass-card team-card">
+            <h2 class="section-title team-title">Our Team</h2>
+            <p class="section-content">
+                BookNexus is brought to life by a dedicated team of students and faculty members who share a passion for technology and education. Each member brings unique skills and perspectives to the project.
+            </p>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Alex Chen" class="member-avatar">
+                    <div class="member-info">
+                        <h3 class="member-name">Alex Chen</h3>
+                        <p class="member-role">Project Lead & Developer</p>
+                        <p class="member-bio">Computer Science student with a passion for UX design. Alex initiated the BookNexus project after experiencing frustration with the traditional library catalog system.</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Maya Johnson" class="member-avatar">
+                    <div class="member-info">
+                        <h3 class="member-name">Maya Johnson</h3>
+                        <p class="member-role">UI/UX Designer</p>
+                        <p class="member-bio">Digital Arts major who brings her artistic vision to the project. Maya's designs focus on creating an intuitive and visually stunning user experience.</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Dr. Sarah Williams" class="member-avatar">
+                    <div class="member-info">
+                        <h3 class="member-name">Dr. Sarah Williams</h3>
+                        <p class="member-role">Faculty Advisor</p>
+                        <p class="member-bio">Head Librarian with 15 years of experience in digital library systems. Dr. Williams provides invaluable guidance on library science best practices.</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Jamal Rodriguez" class="member-avatar">
+                    <div class="member-info">
+                        <h3 class="member-name">Jamal Rodriguez</h3>
+                        <p class="member-role">Backend Developer</p>
+                        <p class="member-bio">Computer Engineering student specializing in database architecture. Jamal built the search algorithm that powers BookNexus's lightning-fast results.</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Priya Patel" class="member-avatar">
+                    <div class="member-info">
+                        <h3 class="member-name">Priya Patel</h3>
+                        <p class="member-role">Content Specialist</p>
+                        <p class="member-bio">English Literature major who ensures book categorizations, descriptions, and metadata are accurate and helpful for students searching the catalog.</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="/api/placeholder/200/200" alt="Liam O'Connor" class="member-avatar">
+                    <div class="member-info">
+                        <h3 class="member-name">Liam O'Connor</h3>
+                        <p class="member-role">Student Ambassador</p>
+                        <p class="member-bio">History major who gathers student feedback and promotes BookNexus across campus. Liam helps ensure the platform meets real student needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const navMenu = document.getElementById('navMenu');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                navMenu.classList.toggle('menu-open');
+            });
+        });
+    </script>
+</body>
+</html>

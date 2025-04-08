@@ -1,0 +1,563 @@
+:root {
+    /* Dark Mode Neon Color Palette */
+    --primary: #0a0e17;     /* Dark background */
+    --secondary: #00f7ff;   /* Cyan neon */
+    --accent: #fe0173;      /* Magenta neon */
+    --accent-alt: #7f5af0;  /* Purple neon */
+    --accent-green: #00ff8c; /* Green neon */
+    --dark-glass: rgba(15, 20, 30, 0.7);  /* Dark glass background */
+    --light-glass: rgba(30, 40, 60, 0.4);  /* Lighter glass */
+    --text: #fffffe;        /* White text */
+    --text-secondary: #94a1b2; /* Subdued text */
+    
+    /* Enhanced Glassmorphism Variables */
+    --glass-bg: linear-gradient(
+        135deg, 
+        rgba(20, 25, 35, 0.75), 
+        rgba(15, 20, 30, 0.6)
+    );
+    --glass-border: rgba(255, 255, 255, 0.05);
+    --glass-shadow: rgba(0, 0, 0, 0.4);
+    
+    /* Neon Glow Effects */
+    --cyan-glow: 0 0 15px rgba(0, 247, 255, 0.5), 0 0 30px rgba(0, 247, 255, 0.2);
+    --magenta-glow: 0 0 15px rgba(254, 1, 115, 0.5), 0 0 30px rgba(254, 1, 115, 0.2);
+    --purple-glow: 0 0 15px rgba(127, 90, 240, 0.5), 0 0 30px rgba(127, 90, 240, 0.2);
+    --green-glow: 0 0 15px rgba(0, 255, 140, 0.5), 0 0 30px rgba(0, 255, 140, 0.2);
+}
+
+body {
+    font-family: 'Inter', 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        135deg, 
+        #0a0e17 0%, 
+        #131822 100%
+    );
+    color: var(--text);
+    line-height: 1.6;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Dark Mode Glassmorphism Background with Neon Grid */
+body::before,
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+body::before {
+    background-image: 
+        linear-gradient(rgba(15, 20, 30, 0.9), rgba(15, 20, 30, 0.9)),
+        repeating-linear-gradient(0deg, transparent, transparent 50px, rgba(0, 247, 255, 0.1) 50px, rgba(0, 247, 255, 0.1) 51px),
+        repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(0, 247, 255, 0.1) 50px, rgba(0, 247, 255, 0.1) 51px);
+    opacity: 0.7;
+}
+
+body::after {
+    background: radial-gradient(circle at 50% 50%, rgba(127, 90, 240, 0.1), transparent 60%),
+                radial-gradient(circle at 85% 20%, rgba(0, 247, 255, 0.15), transparent 40%),
+                radial-gradient(circle at 15% 80%, rgba(254, 1, 115, 0.15), transparent 40%);
+    filter: blur(60px);
+}
+
+/* Navigation - Dark Glassmorphism */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(10, 14, 23, 0.85);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 15px 0;
+    z-index: 1100;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 247, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--light-glass);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    opacity: 0;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+    background: linear-gradient(
+        to right, 
+        var(--secondary), 
+        var(--accent)
+    );
+    transition: width 0.3s ease;
+    box-shadow: var(--cyan-glow);
+}
+
+nav ul li a:hover {
+    color: var(--secondary);
+    text-shadow: 0 0 10px rgba(0, 247, 255, 0.8);
+    z-index: 30;
+}
+
+nav ul li a:hover::before {
+    opacity: 0.3;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Mobile menu button */
+.mobile-menu-btn {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+}
+
+/* Header Section */
+.about-header {
+    padding: 180px 20px 100px;
+    text-align: center;
+    position: relative;
+}
+
+.about-title {
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, var(--secondary), var(--accent-alt));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+    animation: neonPulse 3s infinite;
+}
+
+.about-subtitle {
+    font-size: 22px;
+    max-width: 800px;
+    margin: 0 auto 60px;
+    color: var(--text-secondary);
+}
+
+/* Content Sections */
+.about-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.glass-card {
+    background: var(--dark-glass);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 60px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3),
+                inset 0 0 0 1px var(--glass-border);
+    border: 1px solid var(--glass-border);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5),
+                inset 0 0 0 1px rgba(0, 247, 255, 0.2);
+    border-color: rgba(0, 247, 255, 0.3);
+}
+
+.glass-card:hover::before {
+    width: 100%;
+    opacity: 0.1;
+}
+
+.mission-card::before {
+    background: linear-gradient(to bottom, var(--secondary), var(--accent-alt));
+}
+
+.vision-card::before {
+    background: linear-gradient(to bottom, var(--accent), var(--secondary));
+}
+
+.future-card::before {
+    background: linear-gradient(to bottom, var(--accent-green), var(--accent-alt));
+}
+
+.team-card::before {
+    background: linear-gradient(to bottom, var(--accent-alt), var(--accent));
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.mission-title {
+    color: var(--secondary);
+    text-shadow: var(--cyan-glow);
+}
+
+.vision-title {
+    color: var(--accent);
+    text-shadow: var(--magenta-glow);
+}
+
+.future-title {
+    color: var(--accent-green);
+    text-shadow: var(--green-glow);
+}
+
+.team-title {
+    color: var(--accent-alt);
+    text-shadow: var(--purple-glow);
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 4px;
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+.mission-title::after {
+    background: var(--secondary);
+    box-shadow: var(--cyan-glow);
+}
+
+.vision-title::after {
+    background: var(--accent);
+    box-shadow: var(--magenta-glow);
+}
+
+.future-title::after {
+    background: var(--accent-green);
+    box-shadow: var(--green-glow);
+}
+
+.team-title::after {
+    background: var(--accent-alt);
+    box-shadow: var(--purple-glow);
+}
+
+.section-content {
+    color: var(--text-secondary);
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Feature List */
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature-item {
+    background: rgba(15, 20, 30, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    border: 1px solid var(--glass-border);
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--cyan-glow);
+    border-color: var(--secondary);
+}
+
+.feature-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--secondary);
+    transition: width 0.3s ease;
+}
+
+.feature-item:hover::before {
+    width: 100%;
+    opacity: 0.1;
+}
+
+.feature-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--text);
+    position: relative;
+    display: inline-block;
+}
+
+.feature-description {
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Team Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.team-member {
+    background: rgba(15, 20, 30, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border: 1px solid var(--glass-border);
+    position: relative;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3),
+                var(--purple-glow);
+    border-color: var(--accent-alt);
+}
+
+.member-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 30px auto 20px;
+    display: block;
+    border: 3px solid var(--accent-alt);
+    box-shadow: var(--purple-glow);
+    transition: all 0.4s ease;
+}
+
+.team-member:hover .member-avatar {
+    transform: scale(1.1);
+    border-color: var(--secondary);
+    box-shadow: var(--cyan-glow);
+}
+
+.member-info {
+    text-align: center;
+    padding: 0 20px 30px;
+}
+
+.member-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--text);
+}
+
+.member-role {
+    color: var(--accent-alt);
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.member-bio {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: rgba(10, 14, 23, 0.9);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    border-top: 1px solid rgba(0, 247, 255, 0.15);
+}
+
+.copyright {
+    color: var(--text-secondary);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Animations */
+@keyframes neonPulse {
+    0% { opacity: 0.7; }
+    50% { opacity: 1; }
+    100% { opacity: 0.7; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.glass-card {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.glass-card:nth-child(1) { animation-delay: 0.2s; }
+.glass-card:nth-child(2) { animation-delay: 0.4s; }
+.glass-card:nth-child(3) { animation-delay: 0.6s; }
+.glass-card:nth-child(4) { animation-delay: 0.8s; }
+
+.feature-item, .team-member {
+    animation: slideUp 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: none;
+    }
+    
+    nav ul.menu-open {
+        display: flex;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about-title {
+        font-size: 36px;
+    }
+    
+    .about-subtitle {
+        font-size: 18px;
+    }
+    
+    .glass-card {
+        padding: 25px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .section-content {
+        font-size: 16px;
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
